@@ -32,6 +32,39 @@ body {
 
 
 
-.titulo {
+.titulo-workshop {
+    text-align: center;
+    padding: 138px 0 0 0;
+    font-size: 57px;
+}
+
+.subtitulo-primeiros-passos {
+    text-align: center;
+    padding: 6px 0 0 0;
+    font-size: 34px;  
+}
+
+.titulo-gratuito-e-online {
+    text-align: center;
+    padding: 35px 0 0 0;
+    font-size: 27px;     
+}
+
+
+
+.form {
+    text-align: center;
+    padding: 15px 0 0 0;
+    height: 300px;
+}
+
+.barra {
+    color: black;
+    width: 700px;
+    height: 40px;
+}
+
+.br-form {
     
+   margin: 20px 0;
 }
