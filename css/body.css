@@ -1,0 +1,37 @@
+body {
+    background-image: url(../assets/background.png);
+    margin: auto;
+    padding: 10vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.div-central {
+    position: relative;
+    background-color: brown;
+    height: 570px;
+    width: 870px;
+
+    margin: auto;
+}
+
+
+
+.logo {
+    position: absolute;
+
+    height: 110px;
+    width: auto;
+
+    top: 18%;
+    left: 53%;
+    margin: -10% 0 0 -10%
+}
+
+
+
+.titulo {
+    
+}
