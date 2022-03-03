@@ -75,7 +75,8 @@ body {
 }
 
 .br-barra { 
-   margin: 25px 0;
+    display: block;
+    margin-bottom: 0.6em;
 }
 
 .checkbox {
