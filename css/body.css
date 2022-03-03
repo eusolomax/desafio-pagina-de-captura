@@ -10,9 +10,11 @@ body {
 
 .div-central {
     position: relative;
-    background-color: brown;
+
     height: 570px;
     width: 870px;
+
+    bottom: 20px;
 
     margin: auto;
 }
@@ -52,7 +54,7 @@ body {
 
 
 
-.form {
+.form-principal {
     text-align: center;
     padding: 15px 0 0 0;
     height: 300px;
@@ -60,11 +62,73 @@ body {
 
 .barra {
     color: black;
-    width: 700px;
-    height: 40px;
+    width: 690px;
+    height: 45px;
+
+    box-sizing: border-box;
+    border: solid rgb(255, 255, 255);
+    border-radius: 5px;
+    resize: none;
+
+    font-size: 20px;
+    padding: 0 0 0 10px;
 }
 
-.br-form {
-    
-   margin: 20px 0;
+.br-barra { 
+   margin: 25px 0;
+}
+
+.checkbox {
+    width: 20px;
+}
+
+.botao {
+    box-sizing: border-box;
+    background: none;
+    background-color: rgb(4,124,252);
+    border: solid rgb(4,124,252);
+    border-radius: 10px;
+    resize: none;
+
+    font-size: 20px;
+    height: 55px;
+    width: 700px;
+
+    color: rgb(255, 255, 255);
+}
+
+.botao:hover {
+    background-color: rgb(0, 108, 224);
+    border: solid rgb(0, 108, 224);
+}
+
+
+
+footer {
+    position: absolute;
+    height: 100px;
+    background: rgb(6,6,6);
+    background: linear-gradient(180deg, rgba(6,6,6,1) 0%, rgba(0,0,0,1) 59%, rgba(0,0,0,1) 100%);    left: 0px;
+    right: 0px;
+    top: 98%;
+}
+
+.textos {
+    padding-top: 20px;
+}
+
+.text {
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+
+    padding-top: 4px;
+}
+
+.subtext {
+    font-size: 19px;
+    text-align: center;
+    justify-content: center;
+
+    padding-top: 4px;   
 }
