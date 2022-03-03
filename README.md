@@ -1,2 +1,2 @@
-# WORKING IN PROGRESS
-## Since 02/03/2022
+# Recreate Capture Page challenge by Thiago M. Medeiros
+## https://eusolomax.github.io/desafio-pagina-de-captura/
